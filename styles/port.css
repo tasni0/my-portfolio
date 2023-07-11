@@ -1,36 +1,47 @@
-h3{
-    color: brown;
-    font-size: larger;
+/*common style*/
+body{
+font-family: 'Lato' , 'sans-serif';
+font-family: 'Open Sans', sans-serif;
 }
-div{
-    background-color: rgb(198, 246, 230);
-    font-size: larger;
-    color: brown;
-    text-align: center;
-    margin: 19px;
-    padding: 20px;
-    border: 8px solid rgb(14, 1, 118);
-    border-radius: 15px;
-    box-shadow: 10px 10px 5px black;
+
+/*nav bar*/
+nav{
+    display: flex;
 }
-button{
-    margin: 10px;
-    padding: 10px;
-    font-size: large;
-    font-weight: bold;
-    color: rgb(101, 42, 165);
-    background-color: bisque;
-    border-radius: 20px ;
+
+.navtitle{
+color: #181818;
+font-size: 45px;
+font-weight: 800;
+align-items: center;
 }
-.pic{
-    background-color: rgb(171, 242, 242);
-    border-color: rgb(72, 72, 153);
+
+.textp{
+    color:  #FD6E0A;
 }
-img{
-    width: 250px;
-    height: 180px;
-    border: 5px solid rgb(120, 40, 26);
-    margin: 10px;
-    box-shadow: 5px 3px 2px  1px black;
-    border-radius: 20px 60px;
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ .btn-pri{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    padding: 15px 35px;
+    font-weight: 700;
+ }
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
 }
