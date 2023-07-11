@@ -1,0 +1,36 @@
+h3{
+    color: brown;
+    font-size: larger;
+}
+div{
+    background-color: rgb(198, 246, 230);
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    margin: 19px;
+    padding: 20px;
+    border: 8px solid rgb(14, 1, 118);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(101, 42, 165);
+    background-color: bisque;
+    border-radius: 20px ;
+}
+.pic{
+    background-color: rgb(171, 242, 242);
+    border-color: rgb(72, 72, 153);
+}
+img{
+    width: 250px;
+    height: 180px;
+    border: 5px solid rgb(120, 40, 26);
+    margin: 10px;
+    box-shadow: 5px 3px 2px  1px black;
+    border-radius: 20px 60px;
+}
