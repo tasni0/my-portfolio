@@ -22,6 +22,7 @@ align-items: center;
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
  .btn-pri{
     border-radius: 5px;
@@ -45,3 +46,17 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+/*headerstyle*/
+
+.header{
+    background-color: #FFF8F3;;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+    .banner .propic{
+ width: 500px;
+    }
