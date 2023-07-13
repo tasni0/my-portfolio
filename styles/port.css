@@ -1,12 +1,14 @@
 /*common style*/
-body{
-font-family: 'Lato' , 'sans-serif';
-font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Lato', 'sans-serif';
+    font-family: 'Open Sans', sans-serif;
 }
-.textp{
-    color:  #FD6E0A;
+
+.textp {
+    color: #FD6E0A;
 }
-.btn-pri{
+
+.btn-pri {
     border-radius: 5px;
     background: #FD6E0A;
     color: white;
@@ -14,46 +16,115 @@ font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     padding: 15px 35px;
     font-weight: 700;
- }
+}
 
- /*nav bar*/
-nav{
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-des {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*nav bar*/
+nav {
     display: flex;
 }
- .navtitle{
+
+.navtitle {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     align-items: center;
-    }
-nav{
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
     align-items: center;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 /*headerstyle*/
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .propic{
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .propic {
     width: 500px;
+}
+
+.ban-title {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.ban-head {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.ban-des {
+    color: #757575;
+    font-size: 18px;
+    max-width: 585px;
+}
+/*main Sec*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*about section*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-des{
+    padding: 30px 150px;
 }
