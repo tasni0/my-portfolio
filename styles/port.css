@@ -69,7 +69,7 @@ nav a {
 /*headerstyle*/
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png') ,url(../images/developer.png);
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
@@ -169,7 +169,7 @@ main section {
 }
 
 .resume-item-name {
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -179,37 +179,46 @@ main section {
 .resume-item-institute {
     color: #757575;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
+
 .resume-item-des {
     font-size: 16px;
 }
-.resume-container hr{
-     margin: 30px;
+
+.resume-container hr {
+    margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /*footer styles*/
-footer{
+footer {
     display: flex;
     gap: 100px;
-    background-color:#FFF8F3 ;
+    background-color: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 25px;
 
 }
-.contact-form input[type="text"],.contact-form input[type="email"],textarea{
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
@@ -219,4 +228,75 @@ footer{
     border-radius: 5px;
     border: 0px;
     width: 100%;
+}
+
+/*responsive styles*/
+
+/*mobile device*/
+@media screen and (max-width:576px) {
+
+    .skill-container,
+    .resume-container,
+    footer {
+        flex-direction: column;
+    }
+
+    #what-i-do-des, .banner {
+        padding: 20px;
+    }
+
+    footer,
+    .about {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 70%;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner,
+    nav {
+        flex-direction: column;
+    }
+
+    .banner .propic {
+        width: 100%;
+    }
+
+    nav>ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-pri{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+/*medium device*/
+@media screen and (min-width:577px) and (max-width : 992px) {
+
+    footer {
+        padding: 30px;
+    }
+
+
 }
